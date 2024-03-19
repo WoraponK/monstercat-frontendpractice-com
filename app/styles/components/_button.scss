@@ -1,0 +1,26 @@
+.btn {
+    padding: 1rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    color: $white;
+    transition: $transition-all;
+
+    &:hover {
+        background-color: $white;
+        color: $gray;
+    }
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+    transition: $transition-all;
+
+    &:hover  {
+        background-color: $white;
+        color: $gray;
+    }
+}

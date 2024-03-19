@@ -1,0 +1,23 @@
+.background-cover {
+    overflow: hidden;
+    position: absolute;
+    height: 720px;
+    width: 100%;
+
+    &-img {
+        height: 100%;
+        background-image: url('https://cdx.monstercat.com/?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2FMCLP017%2Fcover%3F2ee434f2-4499-4c30-a937-4aec2b4ac1fc&width=600');
+        background-size: cover;
+        background-position: center;
+        filter: blur(5px) brightness(50%);
+        scale: 1.025;
+    }
+
+    &-color {
+        position: absolute;
+        bottom: 0;
+        background-image: linear-gradient(to bottom, transparent, $black);
+        height: 720px;
+        width: 100%;
+    }
+}
